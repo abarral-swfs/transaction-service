@@ -1,4 +1,4 @@
-package com.smallworldfs.transactionservice.transaction.service;
+package com.smallworldfs.transactionservice.transaction;
 
 import com.smallworldfs.transactionservice.transaction.entity.Transaction;
 import com.smallworldfs.transactionservice.transaction.entity.TransactionStatus;

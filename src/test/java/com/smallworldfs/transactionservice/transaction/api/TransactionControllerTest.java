@@ -1,8 +1,8 @@
 package com.smallworldfs.transactionservice.transaction.api;
 
 import static com.smallworldfs.starter.servicetest.error.ErrorDtoResultMatcher.errorDto;
+import static com.smallworldfs.transactionservice.transaction.Transactions.newTransaction;
 import static com.smallworldfs.transactionservice.transaction.error.TransactionIssue.TRANSACTION_NOT_FOUND;
-import static com.smallworldfs.transactionservice.transaction.service.Transactions.newTransaction;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
